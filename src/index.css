@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: sans;
+  src: url(/Saans-med.ttf);
+}
+
+@font-face {
+  font-family: swit;
+  src: url(/Switzer-Var.ttf);
+}
+
+@font-face {
+  font-family: ibm;
+  src: url(/IBM-plex.ttf);
+}
