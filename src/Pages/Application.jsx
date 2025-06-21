@@ -42,6 +42,7 @@ const Application = () => {
       />
     );
   });
+  
   return (
     <>
       <Tagline />
