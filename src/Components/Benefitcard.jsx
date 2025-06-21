@@ -1,11 +1,11 @@
 import React from "react";
 
-const Benefitcard = () => {
+const Benefitcard = ({ imgURL }) => {
   return (
     <div className="card bg-[#F3ECE2] h-95 w-230 rounded-[40px] overflow-hidden text-zinc-800 flex">
       <div className="img-div w-120 h-95 rounded-[40px] bg-teal-600">
         <img
-          src="https://cdn.prod.website-files.com/671898ae57fbee5bf1da9fba/674033244546d6ee0abb7478_Frame%202087331480-2.webp"
+          src={imgURL}
           alt="Benefit 1"
           className="w-full h-full object-cover rounded-[40px]"
         />

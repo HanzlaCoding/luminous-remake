@@ -1,33 +1,34 @@
 import React from "react";
 import Tagline from "../Components/Tagline";
+import Benefitcard from "../Components/Benefitcard";
 
 const Benefits = () => {
-
   const data = [
     {
-      imgURL:"https://cdn.prod.website-files.com/671898ae57fbee5bf1da9fba/674033244546d6ee0abb7478_Frame%202087331480-2.webp"
+      imgURL:
+        "https://cdn.prod.website-files.com/671898ae57fbee5bf1da9fba/674033244546d6ee0abb7478_Frame%202087331480-2.webp",
     },
     {
-      imgURL:"https://cdn.prod.website-files.com/671898ae57fbee5bf1da9fba/67403324759d4ba06050c510_Frame%202087331480-1.webp"
+      imgURL:
+        "https://cdn.prod.website-files.com/671898ae57fbee5bf1da9fba/67403324759d4ba06050c510_Frame%202087331480-1.webp",
     },
     {
-      imgURL:"hhttps://cdn.prod.website-files.com/671898ae57fbee5bf1da9fba/67409518627cee8a92540085_face.webpttps://cdn.prod.website-files.com/671898ae57fbee5bf1da9fba/674033244546d6ee0abb7478_Frame%202087331480-2.webp"
+      imgURL:
+        "https://cdn.prod.website-files.com/671898ae57fbee5bf1da9fba/67409518627cee8a92540085_face.webp",
     },
     {
-      imgURL:"https://cdn.prod.website-files.com/671898ae57fbee5bf1da9fba/674033242fdd7bd921085f15_Frame%202087331480.webp"
+      imgURL:
+        "https://cdn.prod.website-files.com/671898ae57fbee5bf1da9fba/674033242fdd7bd921085f15_Frame%202087331480.webp",
     },
     {
-      imgURL:"https://cdn.prod.website-files.com/671898ae57fbee5bf1da9fba/6740332425a33e3de6ea9d44_Frame%202087331482.webp"
-    }
-  ]
+      imgURL:
+        "https://cdn.prod.website-files.com/671898ae57fbee5bf1da9fba/6740332425a33e3de6ea9d44_Frame%202087331482.webp",
+    },
+  ];
 
-  const renderCards = () => {
-    return data.map((item, index) => {
-      return (
-        
-      );
-    });
-  };
+  const renderCards = data.map((item, index) => {
+    return <Benefitcard imgURL={item.imgURL} key={index} />;
+  });
 
   return (
     <>
@@ -39,8 +40,8 @@ const Benefits = () => {
           </div>
         </div>
 
-        <div className="benefit-cards flex flex-col items-center">
-          
+        <div className="benefit-cards flex flex-col gap-y-3 items-center">
+          {renderCards}
         </div>
       </div>
     </>
