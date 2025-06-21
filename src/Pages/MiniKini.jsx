@@ -4,22 +4,32 @@ import CartSVG from "../Components/CartSVG";
 const MiniKini = () => {
   return (
     <>
-      <div className="w-full h-130 rounded-[40px] bg-center bg-[url(https://cdn.prod.website-files.com/671898ae57fbee5bf1da9fba/6841b5ed4392ea9a2feb9b3f_banner.jpg)]  bg-cover">
-        <div className="overlay px-6 py-10 w-full h-full text-white flex items-center justify-center">
+      <div className="w-full h-140 rounded-[40px] bg-center bg-[url(https://cdn.prod.website-files.com/671898ae57fbee5bf1da9fba/6841b5ed4392ea9a2feb9b3f_banner.jpg)]  bg-cover relative font-[sans] flex items-center justify-center overflow-hidden">
+        <div className="overlay px-6 py-10 text-white flex text-center flex-col items-center justify-between w-fit h-140 absolute z-100">
           
-            <div className="content font-[sans] bg-red-500 w-fit h-110">
-            <h3>
-              <span>Meet Kini,</span>
+            <div className="content font-[sans] text-3xl">
+            <h3 className="text-[#F8AC93]">
+              <span className="text-zinc-800">Meet Kini,</span>
               the first wearable using
             </h3>
-            <h3>
+            <h3 className="text-[#F8AC93]">
               non-invasive light technology
             </h3>
-            <h3>
+            <h3 className="text-[#F8AC93]">
               to support and improve female longetivity
             </h3>
             </div>
+            <div className="buy-kini bg-[#9B777A] flex items-center justify-between px-3 py-2 rounded-full w-140">
+              <p className="text-sm">Get the new Kini now</p>
+              <div className="price-btn flex items-center gap-x-2">
+                <p className="text-lg">$149</p>
+                <button className="bg-zinc-100 text-black px-6 py-3 rounded-full">Buy Now</button>
+              </div>
+            </div>
 
+        </div>
+        <div className="image-kini absolute -bottom-20 scale-80">
+            <img src="https://cdn.prod.website-files.com/671898ae57fbee5bf1da9fba/673daf8686019b7dff3699ab_kini.webp" alt="" />
         </div>
       </div>
     </>
