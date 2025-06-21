@@ -3,6 +3,7 @@ import Home from "./Pages/Home";
 import BodayFat from "./Pages/BodayFat";
 import Application from "./Pages/Application";
 import MiniKini from "./Pages/MiniKini";
+import Benefits from "./Pages/Benefits";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <BodayFat/>
         <Application/>
         <MiniKini/>
+        <Benefits/>
       </div>
     </>
   );

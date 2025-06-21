@@ -9,7 +9,7 @@ const MiniKini = () => {
           
             <div className="content font-[sans] text-3xl">
             <h3 className="text-[#F8AC93]">
-              <span className="text-zinc-800">Meet Kini,</span>
+              <span className="text-zinc-100">Meet Kini,</span>
               the first wearable using
             </h3>
             <h3 className="text-[#F8AC93]">
@@ -19,7 +19,7 @@ const MiniKini = () => {
               to support and improve female longetivity
             </h3>
             </div>
-            <div className="buy-kini bg-[#9B777A] flex items-center justify-between px-3 py-2 rounded-full w-140">
+            <div className="buy-kini backdrop-blur-[50px] backdrop-saturate-200 bg-[#a8818400] flex items-center justify-between px-3 py-3 rounded-full w-150">
               <p className="text-sm">Get the new Kini now</p>
               <div className="price-btn flex items-center gap-x-2">
                 <p className="text-lg">$149</p>
@@ -28,7 +28,7 @@ const MiniKini = () => {
             </div>
 
         </div>
-        <div className="image-kini absolute -bottom-20 scale-80">
+        <div className="image-kini absolute -bottom-20">
             <img src="https://cdn.prod.website-files.com/671898ae57fbee5bf1da9fba/673daf8686019b7dff3699ab_kini.webp" alt="" />
         </div>
       </div>
