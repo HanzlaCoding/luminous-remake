@@ -14,7 +14,7 @@ const Navbar = () => {
         </select>
         <div className="cart flex items-center gap-x-2 ml-4">
           <p>Cart</p>
-          <div className="cart w-10 h-10 p-1 border-1 cursor-pointer border-zinc-300 rounded-full flex items-center justify-center transition-all duration-300 hover:bg-white hover:text-black">
+          <div className="cart w-7 h-7 p-1 border-1 cursor-pointer border-zinc-300 rounded-full flex items-center justify-center transition-all duration-300 hover:bg-white hover:text-black">
             <CartSVG />
           </div>
         </div>

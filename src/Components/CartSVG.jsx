@@ -4,7 +4,7 @@ const CartSVG = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      height="80px"
+      height="100px"
       viewBox="0 0 37 38"
       fill="none"
     >

@@ -15,7 +15,7 @@ const HomeLinks = () => {
           </p>
         ) : (
           <p
-            className="cursor-pointer px-4 py-2 border-1 border-transparent rounded-full transition-all duration-300
+            className="cursor-pointer px-4 py-2 border-1 border-transparent rounded-full transition-all duration-300 
                       hover:border-white"
             key={index}
           >
