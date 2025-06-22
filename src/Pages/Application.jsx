@@ -47,7 +47,7 @@ const Application = () => {
     <>
       <Tagline />
 
-      <div className="cards font-[sans] w-fit mx-auto flex items-center gap-x-5">
+      <div className="cards font-[sans] w-fit mx-auto flex items-center gap-x-2">
         {renderCards}
       </div>
 

@@ -5,6 +5,7 @@ import Application from "./Pages/Application";
 import MiniKini from "./Pages/MiniKini";
 import Benefits from "./Pages/Benefits";
 import Footer from "./Pages/Footer";
+import Testimonials from "./Pages/Testimonials";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Application/>
         <MiniKini/>
         <Benefits/>
+        <Testimonials/>
         <Footer/>
       </div>
     </>

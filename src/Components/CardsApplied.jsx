@@ -21,7 +21,7 @@ const CardsApplied = ({ title, btnText, imgURL, iconURL }) => {
 
   return (
     <div className="card h-100 w-fit rounded-[40px] overflow-hidden">
-      <div className="img w-80 h-60 rounded-[40px] bg-teal-600">
+      <div className="img w-70 h-60 rounded-[40px] bg-teal-600">
         <img
           className="w-full h-full object-cover object-center"
           src={imgURL}

@@ -32,7 +32,7 @@ const Benefits = () => {
 
   return (
     <>
-      <div className="benefits min-h-screen w-full py-10 font-[sans]">
+      <div className="benefits min-h-screen w-full py-10 font-[sans] mb-25">
         <div className="tagline">
           <div className="text-content py-10 font-[sans] text-center">
             <p className="text-zinc-400">Benefits</p>
